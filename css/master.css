@@ -54,6 +54,7 @@
     text-align: center;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    padding-left: 500px;
 }
 article:hover img {
     opacity: 0.3;
