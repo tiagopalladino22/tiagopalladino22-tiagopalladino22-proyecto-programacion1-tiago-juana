@@ -80,3 +80,29 @@ article:hover img {
 .footer p {
     padding: 0px 50px;
 }
+.detalles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding-top: 50px ;
+    padding-left: 10px;
+    width: 100%;
+}
+.detalles .descripcion {
+    width: 50%;
+}
+.detalles .descripcion h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.detalles .descripcion p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.video {
+    border: 5px red solid;
+}
+.staff {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
