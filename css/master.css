@@ -36,9 +36,11 @@
     padding: 0px 20px;
 }
 .navigation a li {
-    vertical-align: middle;
+    vertical-align: center;
     display: table-cell;
     height: 100%;
+    padding-top: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 .titulo-general {
     width: 100%;
@@ -101,6 +103,7 @@ article:hover img {
 }
 .video {
     border: 5px red solid;
+    height: 100%;
 }
 .staff {
     color: white;
