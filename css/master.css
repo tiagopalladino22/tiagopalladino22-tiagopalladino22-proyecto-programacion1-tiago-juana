@@ -53,6 +53,9 @@
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
+article:hover img {
+    opacity: 0.3;
+}
 .peliculas{
     display: flex;
     flex-wrap: nowrap;
