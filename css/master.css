@@ -1,7 +1,12 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
 .header {
     width: 100%;
     height: 80px;
-    display: block;
+    display: flex;
+    justify-content: space-between;
     background-color: red;
 }
 .body {
@@ -9,7 +14,7 @@
 }
 .logo {
     height: 100%;
-    display: table;
+    display: flex;
     float: left;
     font-family: 'Montserrat', sans-serif;
 }
@@ -30,7 +35,7 @@
 }
 .navigation a {
     height: 100%;
-    display: table;
+    display: flex;
     float: left;
     color: black;
     padding: 0px 20px;
@@ -42,26 +47,12 @@
     padding-top: 15px;
     font-family: 'Montserrat', sans-serif;
 }
-.titulo-general {
-    width: 100%;
-}
-.titulo-general p {
-    text-align: center;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-.titulo-general h2 {
-    text-align: center;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    padding-left: 500px;
-}
 article:hover img {
     opacity: 0.3;
 }
 .peliculas{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .peliculas article {
@@ -105,8 +96,32 @@ article:hover img {
 .video {
     border: 5px red solid;
     height: 100%;
+    width: 40%;
 }
 .staff {
     color: white;
     font-family: 'Montserrat', sans-serif;
+}
+@media (max-width: 1280px) {
+    .detalles {
+        display: block;
+    }
+    .detalles .descripcion {
+        width: 100%;
+    }
+    .detalles .descripcion h2 {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .detalles .descripcion p {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .video {
+        border: 5px red solid;
+        width: 100%;
+    }
+    .staff {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
 }
