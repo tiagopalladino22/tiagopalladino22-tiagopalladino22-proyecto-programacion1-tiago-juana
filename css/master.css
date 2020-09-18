@@ -18,6 +18,9 @@
     float: left;
     font-family: 'Montserrat', sans-serif;
 }
+.logo a {
+    text-decoration: none;
+}
 .titulos {
     color: white;
     font-family: 'Montserrat', sans-serif;
