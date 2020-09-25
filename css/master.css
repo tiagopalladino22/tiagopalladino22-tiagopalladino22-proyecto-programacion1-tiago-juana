@@ -105,6 +105,29 @@ article:hover img {
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
+.generos {
+    text-align: center;
+    background-color: black;
+    font-size: 30px;
+    }
+.generos li{
+        display: grid;
+        grid-template-rows: 90px;
+    }
+.generos li a {
+        text-align: center;
+        color: red;
+        text-decoration: none;
+        padding: 22px;
+    }
+.generos li a:hover{
+        text-decoration: underline;
+    }
+.titulogenero {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
 @media (max-width: 1280px) {
     .detalles {
         display: block;
